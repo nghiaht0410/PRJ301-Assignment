@@ -1,0 +1,32 @@
+.fullscreen-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.orange-form {
+    background-color: #FFA500;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.orange-form label {
+    color: white;
+    font-weight: bold;
+}
+
+.orange-form select {
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.orange-form input[type="submit"] {
+    background-color: white;
+    color: #FFA500;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
